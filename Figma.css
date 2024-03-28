@@ -1,0 +1,537 @@
+body{
+  background:#00040F;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+.side img{
+  width:300px;
+}
+.box-one{
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-between;
+}
+.Next{
+  color: white;
+}
+h1{
+  color:linear-gradient(157.81deg, rgb(222, 249, 250) -43.27%, rgb(190, 243, 245) -21.24%, rgb(157, 237, 240) 12.19%, rgb(125, 231, 235) 29.82%, rgb(92, 225, 230) 51.94%, rgb(51, 187, 207) 90.29%);
+}
+.navbar{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+.navbar div{
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial;
+  cursor: pointer;
+}
+.navbar div:hover{
+text-decoration: underline;
+}
+.hoobank-logo{
+  width:200px;
+  margin:20px;
+}
+#button{
+  color: #fff;
+}
+#cancel{
+  /* background-color: red; */
+  color: white;
+}
+.fa fas-bars{
+  color: white;
+  /* background-color: red; */
+}
+.p,
+Next{
+  color: #fff;
+}
+.next{
+  font-size: 30px;
+  font-weight:800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,
+.Generation-text{
+  font-size: 50px;
+  color: rgba(125, 248, 244, 0.88);
+}
+.payment-text{
+  font-size: 35px;
+}
+.team-text{
+  font-size:15px;
+  line-height:22px;
+}
+.discount{
+  background-color: rgb(65, 51, 51);
+  width: 320px;
+  border-radius:5px;
+  color: #7a7777;
+  margin: 20px;
+  text-align: center;
+}
+h6{
+  width: 245px;
+  line-height: 1.0rem;
+}
+.horizontal-row{
+  display: flex;
+  justify-content: space-between;
+  margin-left:30px;
+  margin-right:100px;
+  font-weight: bold;
+  font-family: Arial;
+}
+span{
+  color:rgb(100, 197, 233);
+}
+.horizontal-row div{
+  color: #fff;
+}
+.double-column{
+  display: flex;
+  justify-content:space-between;
+}
+.first{
+  width:450px;
+  color: white;
+  margin-left: 30px;
+}
+.second{
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  
+}
+.robot-arm{
+  margin-right:0px;
+  font-size: 500px;
+}
+.box{
+border:3px solid #3A3E47;
+border-radius: 8px;
+background-color: #030305;
+color: #fff;
+width: 80%;
+font-weight:800;
+font-family: Arial;
+padding: 8px;
+}
+.double-column{
+  font-weight: 800;
+  color: white;
+}
+.Reward{
+  margin: 20px;
+  width:300px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.reward-img{
+position: absolute;
+left: -40px;
+top:45px;
+margin-left: -20px;
+}
+.reward-paragraph{
+  line-height: 0.5rem;
+}
+.first h2{
+  width:55%;
+}
+.btn{
+  background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+  font-size:14px;
+ padding:8px;
+ border-radius:6px;
+}
+.picture-text{
+  display: flex;
+  justify-content: space-between;
+}
+.paypal{
+  width: 200px;
+  margin-left: 30px;
+}
+.easy
+{
+  width:35%;
+}
+h3{
+  color: white;
+  font-weight:1000;
+}
+.easy{
+  color: white;
+  font-family: serif;
+}
+.easy-text{
+  margin-left: 300px;
+}
+.place{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.find{
+  width:22%;
+  color: #fff;
+}
+.find p{
+  color: rgb(87, 81, 81);
+}
+.view{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.first-text{
+  width:14%;
+  color: #fff;
+margin-left: 20px;
+font-weight:900;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-two{
+  color: #887e7e;
+  width: 300px;
+  margin-right: 130px;
+}
+.About-us{
+  width: 250px;
+  border: 4px solid rgb(40, 38, 38);
+  border-radius: 15px;
+  background-color: rgb(40, 38, 38);
+  padding-top: 25px;
+  color: #b7adad;
+}
+.person-content{
+  display: flex;
+  justify-content: space-around;
+margin-right: 20px;
+  position: relative;
+ 
+}
+.person-img img{
+width:43px;
+top:25px;
+position: relative;
+}
+.person-quote img{
+  width: 20px;
+  margin-left: 35px;
+}
+.person-info{
+  text-align: center;
+  margin: 20px;
+} .person-text{
+  text-align: justify;
+}
+.person-details{
+  line-height: 2px;
+  margin-top: 16px;
+}
+.person-details p{
+  color: rgb(104, 96, 96);
+}
+#Our-team-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+.About-us1{
+  width: 248px;
+  color: #c6c1c1;
+}
+.banner{
+  border: 4px solid rgb(40, 38, 38);
+  border-radius: 15px;
+  background-color: rgb(40, 38, 38);
+  height: 120px;
+  align-items: center;
+  padding:15px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 35px;
+}
+.banner-text1 p{
+  width:320px;
+  margin-left:45px;
+  color: #726a6a;
+}
+h3{
+  font-size: 25px;
+  
+}
+button{
+  background-color: rgb(116, 219, 207);
+  margin-right: 45px;
+  font-size:15px;
+  padding:8px;
+  border-radius: 8px;
+  color: #1f1d1d;
+  font-family: Arial;
+  font-weight:600;
+  cursor: pointer;
+}
+
+.flex-items{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-items  div img{
+  width: 120px;
+  margin: 50px;
+}
+/* Link items styling */
+.link-items{
+  color: #fff;
+  background-color: rgba(8, 6, 6, 0.233);
+  padding:10px;
+}
+.link-items1{
+  width: 250px;
+
+}
+.useful-link,
+.community-links,
+.partner,
+.link-items1{
+  margin: 20px;
+  line-height: 25px;
+}
+.useful-links-main{
+  display: flex;
+  justify-content:center;
+
+}
+
+hr{
+  margin:40px;
+ opacity: 0.2;
+}
+.useful-links{
+  color: #fff;
+  padding: 5px;
+  /* margin-left: -800px; */
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  margin-left:-40px;
+  line-height: 20px;
+}
+li{
+  list-style: none;
+  margin-right:40px;
+  line-height:2rem;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  text-decoration: underline;
+  transition: 100s;
+ color: red;
+}
+
+/* footer styling */
+.main{
+  display: flex;
+  justify-content: space-between;
+  margin:40px;
+}
+.first{
+  font-size:18px;
+  padding: 5px;
+  margin: 8px;
+  font-family: 'Arial';
+}
+.social-media-links{
+  display: flex;
+}
+.social-media-links img{
+  width: 20px;
+  padding:10px;
+  cursor: pointer;
+}
+#cancel,
+#button{
+  display: none;
+}
+@media only screen and (max-width:750px) {
+ .navbar{
+  margin:20px;
+  display:block;
+ }
+ .open-nav{
+  transform: translateX(0%);
+}
+ body{
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+ }
+ nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  z-index: 999;
+  height: 100vh;
+  background-color: rgb(173, 155, 155);
+ }
+ .navbar{
+  padding:0;
+  margin-top: 50px;
+ }
+ .head{
+  /* display:grid;
+  grid-template-columns: 1fr; */
+  display: flex;
+  justify-content: space-between;
+ }
+ .navbar a{
+  font-size: 30px;
+  display:block;
+ }
+ #Our-team-section{
+  display: grid;grid-template-columns: 1fr;
+  gap: 8px;
+ }
+ .About-us{
+  padding: 15px;
+  margin: 20px;
+ }
+.Reward{
+  width: 200px;
+  padding: -30px;
+}
+.flex-container{
+  display: grid;
+}
+.flex-items{
+  width: 300px;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+}
+.flex-items img{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner{
+ width: 350px; 
+ display:block;
+ height: auto;
+}
+.banner p{
+  width: 250px;
+  text-align: justify;
+}
+.box-one{
+  display: grid;
+}
+.horizontal-row{
+  display: grid;
+ padding: 15px;
+ gap: 10px;
+}
+.main{
+  display:grid;
+  margin: 80px;
+  padding: 30px;
+}
+.double-column{
+  display: flex;
+  flex-direction: column;
+}
+.robot-arm{
+  height:100vh;
+}
+.team-text{
+  width:280px;
+}
+.first h2{
+  font-size:20px;
+}
+.picture-text{
+ display: flex;
+ flex-direction: column;
+ width:550px;
+ text-align: center;
+ justify-content: center;
+}
+.easy{
+  width: 100%;
+}
+.easy-text{
+  width:300px;;
+  margin: 10px;
+  padding: 30px;
+  align-self: center;
+}
+.place{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+.card,
+.find{
+  width: 100%;
+}
+.view{
+  display: grid;
+  grid-template-columns: 1fr;
+ padding: 20px;
+ margin: 30px;
+}
+.first-text{
+  width: 80%;
+}
+.reward-banner{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw;
+ margin:45px;
+ padding:15px;
+}
+.reward-img{
+  display: block;
+  top: 65px;
+
+}
+#cancel, #button{
+  display: block;
+  font-size: 30px;
+  text-align: end;
+  top:0px;
+  z-index: 1;
+  cursor: pointer;
+}
+nav{
+  transform: translateX(100%);
+  transition: transform .5s ease-in-out;
+}
+}
+
+
